@@ -54,8 +54,8 @@ provider "helm" {
 
 ### Kubernetes Security Services ###
 
-module "security" {
-  source = "github.com/cisco-apjc-cloud-se/terraform-helm-security"
+module "k8ssecurity" {
+  source = "github.com/cisco-apjc-cloud-se/terraform-helm-k8ssecurity"
 
   ### Secure Cloud Analytics ###
   sca = {
